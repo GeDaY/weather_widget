@@ -212,7 +212,5 @@ fetchData(urlWetherByDays, 'GET', (response) => {
     )
   )
 
-  const resultWidgetItemsString = someDaysCurrentAttr.join('')
-
-  document.querySelector('.week-list').innerHTML = resultWidgetItemsString
+  document.querySelector('.week-list').innerHTML = someDaysCurrentAttr.join('')
 })
